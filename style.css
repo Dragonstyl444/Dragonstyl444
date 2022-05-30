@@ -1,0 +1,822 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+
+@font-face {
+    font-family: 'Xolonium';
+    src: url('../fonts/XoloniumBold.eot');
+    src: url('../fonts/XoloniumBold.eot') format('embedded-opentype'),
+        url('../fonts/XoloniumBold.woff2') format('woff2'),
+        url('../fonts/XoloniumBold.woff') format('woff'),
+        url('../fonts/XoloniumBold.ttf') format('truetype'),
+        url('../fonts/XoloniumBold.svg#XoloniumBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Xolonium';
+    src: url('../fonts/XoloniumRegular.eot');
+    src: url('../fonts/XoloniumRegular.eot') format('embedded-opentype'),
+        url('../fonts/XoloniumRegular.woff2') format('woff2'),
+        url('../fonts/XoloniumRegular.woff') format('woff'),
+        url('../fonts/XoloniumRegular.ttf') format('truetype'),
+        url('../fonts/XoloniumRegular.svg#XoloniumRegular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+#promo_lp {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: auto;
+    color: #eee;
+    font-family: 'Electrolize', sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    min-height: 100vh;
+}
+
+#promo_lp sup {
+    line-height: 0;
+    font-size: 0.5em;
+}
+
+#promo_lp * {
+    box-sizing: border-box;
+    outline: none;
+}
+
+#promo_lp .clear {
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+#promo_lp .pull-left {
+    float: left;
+}
+
+#promo_lp .pull-right {
+    float: right;
+}
+
+#promo_lp .lp-content {
+    background: #000;
+    width: 100%;
+    max-width: 1140px;
+    min-height: 100vh;
+    position: relative;
+    overflow: auto;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px #000, 0px 0px 10px #000;
+}
+
+#promo_lp a.noul {
+    text-decoration: none;
+}
+
+#promo_lp em {
+    font-style: normal;
+    color: #ff0000;
+}
+
+#promo_lp .header-logos {
+    width: 100%;
+    padding: 5% 60px 0;
+    height: 100px;
+    margin-bottom: -100px;
+    z-index: 100;
+    position: absolute;
+    text-align: right;
+}
+
+#promo_lp .header-logos .logoleft {
+    float: left;
+    display: block;
+}
+
+#promo_lp .header-logos .logoright {
+    float: right;
+    display: block;
+}
+
+#promo_lp .header-logos img.logoright {
+    max-width: 75%;
+}
+
+#promo_lp .header-logos img.sublogoright {
+    max-width: 24%;
+}
+
+#promo_lp .hero-img {
+    display: block;
+    max-width: 100%;
+    z-index: 10;
+    /*margin-bottom: -160px;*/
+}
+
+#promo_lp .headline {
+    font-family: 'Xolonium', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 45px;
+    max-width: 95%;
+    padding: 0 60px;
+}
+
+#promo_lp hr {
+    width: 80%;
+    border: 0;
+    height: 0;
+    color: #666;
+    background: transparent;
+    border-top: 1px dashed #666;
+}
+
+#promo_lp .subhead {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+#promo_lp .subhead .subhead_text {
+    font-family: 'Xolonium', sans-serif;
+    font-size: 43px;
+    line-height: 50px;
+    text-align: right;
+    padding: 25px 0 25px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    flex-grow: 1;
+}
+
+#promo_lp .subhead .smallcol {
+    width: 670px;
+    max-width: 95%;
+    margin: 0 auto;
+    font-family: 'Electrolize', sans-serif;
+    color: #bbb;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: normal !important;
+    font-weight: 400;
+}
+
+#promo_lp .subhead .smallcol .alignright {
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+
+#promo_lp .subhead .smallcol b {
+    font-weight: 400;
+    color: #eee;
+}
+
+#promo_lp .subhead .smallcol br {
+    clear: both;
+}
+
+#promo_lp .subhead .smallcol.legal {
+    padding-top: 25px;
+    color: #888;
+    font-size: 15px;
+}
+
+
+#promo_lp .small {
+    font-size: 15px;
+    letter-spacing: 0.04em;
+}
+
+#promo_lp .subhead .small {
+    display: block;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#promo_lp .productlist {
+    text-align: center;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.productfacts {
+    text-align: left;
+    vertical-align: top;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 14px;
+    font-weight: regular;
+    color: #fff;
+    padding-top: 0px;
+}
+
+.productfacts td {
+    padding: 0px 20px 60px 20px;
+    vertical-align: top;
+    width: 33%;
+}
+
+.productfacts img {
+    width: auto !important;
+    height: auto !important;
+    text-align: center;
+}
+
+
+
+.infofacts {
+    text-align: left;
+    vertical-align: top;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 14px;
+    text-transform: normal !important;
+    font-weight: 400;
+    color: #fff;
+    padding: 20px 20px 60px 0px;
+}
+
+.infofacts img {
+    width: auto !important;
+    height: auto !important;
+    text-align: center;
+}
+
+
+
+.factheadline {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify
+}
+
+#promo_lp .productlist h3 {
+    text-align: center;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #46b4fe;
+    padding-top: 10px;
+}
+
+#promo_lp .productlist p {
+    margin: 0;
+}
+
+#promo_lp .productlist ul {
+    list-style: none;
+    margin: 10px 0 10px;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 300;
+}
+
+#promo_lp .prodlist_area,
+#promo_lp .dealers_list_area {
+    display: block;
+    width: 650px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+#promo_lp .dealers_list_area {
+    vertical-align: top;
+    padding: 60px 0 30px;
+    text-align: center;
+}
+
+#promo_lp .dealer-toggle {
+    cursor: pointer;
+}
+
+#promo_lp .dealer-toggle:before {
+    content: "â–¼";
+    padding: 0 15px;
+    display: inline-block;
+    width: 45px;
+}
+
+#promo_lp .dealer-toggle.collapsed:before {
+    content: "â–¶";
+    padding: 0 15px;
+    display: inline-block;
+    width: 45px;
+}
+
+#promo_lp .faq-area {
+    width: 80%;
+    margin: 30px auto;
+    padding: 0 60px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 300;
+}
+
+#promo_lp .faq-area h3 {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #46b4fe;
+    ;
+}
+
+#promo_lp .faq-area .dealers-list img {
+    vertical-align: middle;
+}
+
+#promo_lp #dealer_list b {
+    color: #ff0000;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+#promo_lp .faq-area ul,
+#promo_lp .faq-area ol {
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+#promo_lp .faq-area ul ol,
+#promo_lp .faq-area ul ul,
+#promo_lp .faq-area ol ol,
+#promo_lp .faq-area ol ul {
+    padding-bottom: 0;
+}
+
+#promo_lp .faq-area ul li,
+#promo_lp .faq-area ol li {
+    margin-top: 15px;
+}
+
+#promo_lp .faq-area .legals {
+    font-size: 15px;
+    color: #888;
+}
+
+#promo_lp button.cta-main {
+    display: block;
+    margin: 50px auto 0;
+    width: 500px;
+    max-width: 95%;
+    height: 150px;
+    background: #46b4fe;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    color: #fff;
+    border: 2px solid #46b4fe;
+    transition: background 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#promo_lp button.cta-main:hover {
+    background: #000;
+
+}
+
+#promo_lp button.cta-main.disabled {
+    cursor: not-allowed;
+}
+
+#promo_lp button.cta-tac {
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+    max-width: 95%;
+    min-height: 50px;
+    background: #000;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    border: 2px solid #46b4fe;
+    transition: background 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#promo_lp button.cta-tac:hover {
+    background: #250d28;
+
+}
+
+#promo_lp .footerlogos {
+    text-align: center;
+}
+
+#promo_lp .footerlogos img {
+    max-width: 100%;
+}
+
+#promo_lp .footer {
+    text-align: center;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 14px;
+    color: #aaa;
+    font-weight: 300;
+    padding: 40px 100px 20px;
+}
+
+#promo_lp .dealer-pop {
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    position: absolute;
+    z-index: 9999;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    height: auto;
+    display: none;
+    overflow-y: auto;
+}
+
+#promo_lp .set-lang {
+    padding-top: 25px;
+    clear: both;
+}
+
+#promo_lp .dealer-pop .col {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#promo_lp .dealer-pop .col h4 {
+    font-family: 'Eurostile', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0;
+    color: #ff0000;
+}
+
+#promo_lp .dealer-pop ul {
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#promo_lp .dealer-pop ul li {
+    margin-top: 0px;
+}
+
+#promo_lp .l_hiw_4 a {
+    display: inline-block;
+    background: #222;
+    padding: 2px 5px;
+    border: 1px solid #333;
+    color: #2294b5;
+}
+
+#promo_lp .packshots {
+    padding: 20px 20px 40px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#promo_lp .packshots img.packshot {
+    display: inline-block;
+    width: 110px;
+    margin: 5px;
+}
+
+#promo_lp .packshots img {
+    box-shadow: 0px 0px 3px rgba(200, 200, 200, 0.5);
+    transition: all 0.2s;
+}
+
+#promo_lp .packshots a:hover img {
+    transform: scale(1.08);
+    box-shadow: 0px 0px 3px rgba(200, 200, 200, 0.5), 0px 0px 10px rgba(255, 50, 50, 0.8);
+}
+
+#promo_lp .prodlisttable {
+    width: 100%;
+    max-width: 1000px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px auto 40px;
+    border: 2px solid #000;
+}
+
+#promo_lp .prodlisttable .center-text {
+    text-align: center;
+}
+
+#promo_lp .prodlisttable th,
+#promo_lp .prodlisttable td {
+    text-align: left;
+    font-size: 16px;
+    padding: 2px 5px;
+    background: #111;
+    border: 2px solid #000;
+}
+
+#promo_lp .prodlisttable th {
+    font-weight: bold;
+    color: #ddd;
+}
+
+#promo_lp .prodlisttable td {
+    font-weight: normal;
+}
+
+#promo_lp .prodlisttable tr:nth-child(2n) td {
+    background: #222;
+}
+
+#promo_lp .prodlisttable tr:hover td {
+    background: #444;
+}
+
+#promo_lp br.below900 {
+    display: none;
+}
+
+#promo_lp .productlist .products {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#promo_lp .productlist .products table {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#promo_lp .productlist .products table img {
+    height: 16px;
+    width: 16px;
+    margin: 10px 0px 0px;
+}
+
+#promo_lp .productlist .prodgroups li {
+    display: block;
+    width: 130px;
+    text-align: center;
+    margin: 10px 5px 20px;
+}
+
+#promo_lp .productlist .prodgroups li img {
+    display: block;
+    margin: 0 auto;
+}
+
+#promo_lp .productlist .prodgroups li div {
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+}
+
+#promo_lp .productlist .products ul {
+    margin: 0 0 0 0;
+    padding: 20px 0;
+}
+
+#promo_lp .productlist .products div.group {
+    padding-bottom: 40px;
+    border-bottom: 1px dashed #666;
+    margin: -1px 0 0 0;
+    overflow: hidden;
+}
+
+#promo_lp .productlist .products .group div.cat {
+    display: none;
+}
+
+.cat td {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+#promo_lp .productlist .prodgroups li,
+#promo_lp a:link,
+#promo_lp a:active,
+#promo_lp a:visited {
+    color: #aaa;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#promo_lp .productlist .prodgroups #g1 li,
+#g1 a:link,
+#g1 a:active,
+#g1 a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#promo_lp .productlist .prodgroups #g2 li,
+#g2 a:link,
+#g2 a:active,
+#g2 a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#promo_lp .productlist .prodgroups #g2 li,
+#g2 a:link,
+#g2 a:active,
+#g2 a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+#promo_lp .productlist .group .tabletr:hover {
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+#promo_lp .productlist ol {
+    margin: 10px 0 10px;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 300;
+}
+
+#promo_lp .productlist h2 {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #fff;
+    ;
+}
+
+#promo_lp div.infotext {
+    border-bottom: 1px dashed #666;
+    margin: -1px 0 0 0;
+    overflow: hidden;
+    padding: 40px 100px 40px;
+    text-align: justify;
+}
+
+#promo_lp div.infotext-ai {
+    border-bottom: none !important;
+}
+
+#promo_lp img.infopic {
+    width: 120%;
+    padding: 40px 130px 0 0;
+}
+
+
+@media (max-width: 850px) {
+    #promo_lp .hero-img {
+        /*margin-bottom: -10%;*/
+    }
+
+    #promo_lp .headline {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 0;
+    }
+
+    #promo_lp .subhead {
+        padding: 0;
+    }
+
+    #promo_lp .subhead .smallcol {
+        font-size: 16px;
+        overflow: hidden;
+    }
+
+    #promo_lp .subhead .smallcol .alignright {
+        display: block;
+        text-align: right;
+    }
+
+    #promo_lp .subhead .smallcol.legal,
+    #promo_lp .faq-area .legals,
+    #promo_lp .footer {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    #promo_lp .productlist .prodgroups {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #promo_lp .productlist ul {
+        font-size: 12px;
+    }
+
+    #promo_lp .productlist .prodgroups li {
+        width: 15%;
+        margin: 0 0.5%;
+    }
+
+    #promo_lp .productlist .prodgroups li img {
+        max-width: 100%;
+    }
+
+    #promo_lp .faq-area {
+        width: 90%;
+        padding: 0;
+    }
+
+    #promo_lp .footer {
+        padding: 50px 20px;
+    }
+
+    #promo_lp div.infotext {
+        padding: 40px 60px 40px;
+    }
+
+    #promo_lp img.infopic {
+        padding: 40px 40px 0;
+    }
+}
+
+@media (max-width: 550px) {
+    #promo_lp .productlist .prodgroups li {
+        width: 30%;
+        margin: 0 0.5%;
+    }
+
+    #promo_lp div.infotext {
+        padding: 40px 0px 40px;
+    }
+
+    #promo_lp img.infopic {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+
+.thleft {
+    border: 1px #666;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.thright {
+    border: 1px #666;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.tablecashback {
+    padding: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #46b4fe;
+}
+
+.tablecashback:hover {
+    color: #fff;
+}
+
+.tableproduct {
+    text-align: left !important;
+    padding: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.tabletr {
+    color: #fff;
+    text-decoration: none;
+}
